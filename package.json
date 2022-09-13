@@ -25,7 +25,8 @@
   "license": "GPL",
   "devDependencies": {
     "vitepress": "1.0.0-alpha.13",
-    "vue": "^3.2.39"
+    "vue": "^3.2.39",
+    "npm-run-all": "^4.1.5"
   },
   "pnpm": {
     "peerDependencyRules": {
