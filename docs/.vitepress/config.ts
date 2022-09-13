@@ -34,7 +34,7 @@ export default defineConfig({
 
         nav: [
             { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-            // { text: 'Configs', link: '/configs/', activeMatch: '/config/' },
+            { text: 'Product Story', link: 'https://support.qq.com/products/431975/team/' },
             { text: 'Feedback', link: 'https://support.qq.com/product/431975' }
         ],
         socialLinks: [
