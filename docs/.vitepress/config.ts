@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress'
-
-
+import { navbar, navbar_cn } from './navbar'
+import { sidebar } from './sidebar'
 const ogDescription = 'A Figma Content Filling plugin Power By WPS Sheet.'
 const ogImage = 'https://WpsFigmaSync.forkway.cn/og-image.png'
 const ogTitle = 'WpsFigmaSync'
 const ogUrl = 'https://WpsFigmaSync.forkway.cn'
 
+//not use defineConfig, some config will not work
 
-export default defineConfig({
-
+export default {
     title: 'WpsFigmaSync',
     description: `${ogDescription}`,
     head: [
@@ -42,11 +42,7 @@ export default defineConfig({
         logo: '/logo.svg',
         siteTitle: 'WpsFigmaSync',
 
-        nav: [
-            { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-            { text: 'Product Story', link: 'https://support.qq.com/products/431975/team/' },
-            { text: 'Feedback', link: 'https://support.qq.com/product/431975' }
-        ],
+        nav: navbar,
         socialLinks: [
             { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsFigmaSyncDocs' }
         ],
@@ -55,25 +51,24 @@ export default defineConfig({
             text: 'Edit this page on GitHub'
         },
         localeLinks: {
-            text: '',
+            text: 'English',
             items: [
                 { text: '简体中文', link: '/zh/' },
-                { text: 'English', link: '/' }
             ]
         },
-
-        sidebar: {
-            '/guide/': [
-                {
-                    text: 'Guide',
+        sidebar: sidebar,
+        locales: {
+            '/zh/': {
+                nav: navbar_cn,
+                localeLinks: {
+                    text: '简体中文',
                     items: [
-                        { text: 'Getting Started', link: '/guide/' },
-                        { text: 'Introduction', link: '/guide/introduce' },
-                        { text: 'Usage', link: '/guide/usage' },]
+                        { text: 'English', link: '/' }
+                    ]
                 }
-            ]
-        },
+            }
+        }
         
     },
     appearance: true
-})
+}

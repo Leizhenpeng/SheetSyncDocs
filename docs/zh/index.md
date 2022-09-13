@@ -16,7 +16,7 @@ hero:
   actions:
     - theme: brand
       text: 开启体验
-      link: /guide/
+      link: /zh/guide/
 
 
 
