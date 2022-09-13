@@ -38,10 +38,10 @@ export default defineConfig({
             { text: 'Feedback', link: 'https://support.qq.com/product/431975' }
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsFigmaSync' }
+            { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsFigmaSyncDocs' }
         ],
         editLink: {
-            pattern: 'https://github.com/Leizhenpeng/WpsFigmaSync/edit/main/docs/:path',
+            pattern: 'https://github.com/Leizhenpeng/WpsFigmaSyncDocs/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
         localeLinks: {
