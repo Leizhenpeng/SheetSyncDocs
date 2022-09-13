@@ -1,12 +1,18 @@
 {
   "name": "wps_sheet_sync_docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Figma Content Filling plugin Power By WPS Sheet.",
   "main": "index.js",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "packageManager": "pnpm@7.9.5",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "preinstall": "npx only-allow pnpm",
+    "docs-dev": "vitepress dev docs",
+    "docs-build": "vitepress build docs",
+    "docs-serve": "vitepress serve docs",
+    "ci-docs": "run-s docs-build"
   },
   "keywords": [
     "figma",
