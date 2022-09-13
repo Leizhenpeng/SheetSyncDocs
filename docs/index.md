@@ -18,9 +18,7 @@ hero:
       text: Get Started
       link: /guide/
 
-    - theme: alt
-      text: Why It
-      link : https://support.qq.com/products/431975/team/
+
 
     # - theme: alt
     #   text: Feedback

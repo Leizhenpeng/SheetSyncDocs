@@ -1,17 +1,16 @@
 import { defineConfig } from 'vitepress'
-
-
+import { navbar, navbar_cn } from './navbar'
+import { sidebar } from './sidebar'
 const ogDescription = 'A Figma Content Filling plugin Power By WPS Sheet.'
 const ogImage = 'https://WpsFigmaSync.forkway.cn/og-image.png'
 const ogTitle = 'WpsFigmaSync'
 const ogUrl = 'https://WpsFigmaSync.forkway.cn'
 
+//not use defineConfig, some config will not work
 
-export default defineConfig({
-
+export default {
     title: 'WpsFigmaSync',
     description: `${ogDescription}`,
-
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
         ['meta', { property: 'og:type', content: 'website' }],
@@ -23,7 +22,18 @@ export default defineConfig({
         ['meta', { name: 'twitter:site', content: '@vite_js' }],
         ['meta', { name: 'theme-color', content: '#646cff' }]
     ],
-
+    locales: {
+        '/': {
+            lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+            title: 'WpsFigmaSync',
+            description: ' A Figma Content Filling plugin Power By WPS Sheet.'
+        },
+        '/zh/': {
+            lang: 'zh-CN',
+            title: 'WpsFigmaSync',
+            description: '一款由 WPS 驱动的 FIGMA 内容填充插件'
+        }
+    },
     themeConfig: {
         footer: {
             message: `Released under the GPL License.`,
@@ -32,11 +42,7 @@ export default defineConfig({
         logo: '/logo.svg',
         siteTitle: 'WpsFigmaSync',
 
-        nav: [
-            { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-            // { text: 'Configs', link: '/configs/', activeMatch: '/config/' },
-            { text: 'Feedback', link: 'https://support.qq.com/product/431975' }
-        ],
+        nav: navbar,
         socialLinks: [
             { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsFigmaSyncDocs' }
         ],
@@ -47,20 +53,22 @@ export default defineConfig({
         localeLinks: {
             text: 'English',
             items: [
-                { text: '简体中文', link: ogUrl },
+                { text: '简体中文', link: '/zh/' },
             ]
         },
-        sidebar: {
-            '/guide/': [
-                {
-                    text: 'Guide',
+        sidebar: sidebar,
+        locales: {
+            '/zh/': {
+                nav: navbar_cn,
+                localeLinks: {
+                    text: '简体中文',
                     items: [
-                        { text: 'Getting Started', link: '/guide/' },
-                        { text: 'Introduction', link: '/guide/introduce' },
-                        { text: 'Usage', link: '/guide/usage' },]
+                        { text: 'English', link: '/' }
+                    ]
                 }
-            ]
+            }
         }
+        
     },
     appearance: true
-})
+}
