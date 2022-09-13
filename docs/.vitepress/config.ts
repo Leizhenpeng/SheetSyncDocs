@@ -2,14 +2,14 @@ import { defineConfig } from 'vitepress'
 
 
 const ogDescription = 'A Figma Content Filling plugin Power By WPS Sheet.'
-const ogImage = 'https://WpsSheetSync.forkway.cn/og-image.png'
-const ogTitle = 'WpsSheetSync'
-const ogUrl = 'https://WpsSheetSync.forkway.cn'
+const ogImage = 'https://WpsFigmaSync.forkway.cn/og-image.png'
+const ogTitle = 'WpsFigmaSync'
+const ogUrl = 'https://WpsFigmaSync.forkway.cn'
 
 
 export default defineConfig({
 
-    title: 'WpsSheetSync',
+    title: 'WpsFigmaSync',
     description: `${ogDescription}`,
 
     head: [
@@ -30,7 +30,7 @@ export default defineConfig({
             copyright: 'Copyright © 2022-present Forkway'
         },
         logo: '/logo.svg',
-        siteTitle: 'WpsSheetSync',
+        siteTitle: 'WpsFigmaSync',
 
         nav: [
             { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
@@ -38,10 +38,10 @@ export default defineConfig({
             { text: 'Feedback', link: 'https://support.qq.com/product/431975' }
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsSheetSync' }
+            { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsFigmaSync' }
         ],
         editLink: {
-            pattern: 'https://github.com/Leizhenpeng/WpsSheetSync/edit/main/docs/:path',
+            pattern: 'https://github.com/Leizhenpeng/WpsFigmaSync/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
         localeLinks: {

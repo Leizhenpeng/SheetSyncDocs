@@ -1,5 +1,5 @@
 {
-  "name": "wps_sheet_sync_docs",
+  "name": "wps_figma_sync_docs",
   "version": "1.0.0",
   "description": "A Figma Content Filling plugin Power By WPS Sheet.",
   "main": "index.js",
