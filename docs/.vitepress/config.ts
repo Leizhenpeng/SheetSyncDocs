@@ -11,7 +11,6 @@ export default defineConfig({
 
     title: 'WpsFigmaSync',
     description: `${ogDescription}`,
-
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
         ['meta', { property: 'og:type', content: 'website' }],
@@ -23,7 +22,18 @@ export default defineConfig({
         ['meta', { name: 'twitter:site', content: '@vite_js' }],
         ['meta', { name: 'theme-color', content: '#646cff' }]
     ],
-
+    locales: {
+        '/': {
+            lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+            title: 'WpsFigmaSync',
+            description: ' A Figma Content Filling plugin Power By WPS Sheet.'
+        },
+        '/zh/': {
+            lang: 'zh-CN',
+            title: 'WpsFigmaSync',
+            description: '一款由 WPS 驱动的 FIGMA 内容填充插件'
+        }
+    },
     themeConfig: {
         footer: {
             message: `Released under the GPL License.`,
@@ -45,11 +55,13 @@ export default defineConfig({
             text: 'Edit this page on GitHub'
         },
         localeLinks: {
-            text: 'English',
+            text: '',
             items: [
-                { text: '简体中文', link: ogUrl },
+                { text: '简体中文', link: '/zh/' },
+                { text: 'English', link: '/' }
             ]
         },
+
         sidebar: {
             '/guide/': [
                 {
@@ -60,7 +72,8 @@ export default defineConfig({
                         { text: 'Usage', link: '/guide/usage' },]
                 }
             ]
-        }
+        },
+        
     },
     appearance: true
 })
