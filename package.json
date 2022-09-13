@@ -1,0 +1,31 @@
+{
+  "name": "wps_sheet_sync_docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "figma",
+    "plugin",
+    "wps",
+    "sheets",
+    "sync"
+  ],
+  "author": "river",
+  "license": "GPL",
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.13",
+    "vue": "^3.2.39"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
