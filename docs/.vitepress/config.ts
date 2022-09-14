@@ -58,7 +58,7 @@ export default {
         },
         sidebar: sidebar,
         algolia: {
-            apiId: 'CN4JQQMG9O',
+            appId: 'CN4JQQMG9O',
             apiKey: 'e2b81d64b59e6b5bc9bcfcb9487d2793',
             indexName: 'figma-sheet-sync',
             placeholder: 'Search',
@@ -77,6 +77,18 @@ export default {
                         { text: 'English', link: '/' }
                     ]
                 }
+                ,
+                algolia: {
+                    appId: 'CN4JQQMG9O',
+                    apiKey: 'e2b81d64b59e6b5bc9bcfcb9487d2793',
+                    indexName: 'figma-sheet-sync',
+                    placeholder: '想找点什么？',
+                    translations: {
+                        button: {
+                            buttonText: '快速搜索',
+                        },
+                    }
+                },
             }
         }
         
