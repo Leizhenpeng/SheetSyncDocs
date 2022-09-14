@@ -57,6 +57,17 @@ export default {
             ]
         },
         sidebar: sidebar,
+        algolia: {
+            apiId: 'CN4JQQMG9O',
+            apiKey: 'e2b81d64b59e6b5bc9bcfcb9487d2793',
+            indexName: 'figma-sheet-sync',
+            placeholder: 'Search',
+            translations: {
+                button: {
+                    buttonText: 'Quick Search',
+                },
+            }
+        },
         locales: {
             '/zh/': {
                 nav: navbar_cn,

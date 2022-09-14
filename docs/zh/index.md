@@ -25,7 +25,7 @@ features:
   - icon: ⛑
     title: Figma & Wps
     link: https://www.kdocs.cn/welcome
-    details: 国内最为稳定的在线文档服务商WPS加速你的设计稿开发
+    details: 最为稳定的在线文档服务商WPS加速你的设计稿开发
 
   - icon: 🇨🇳
     title: Lightning Fast Experience
@@ -41,7 +41,7 @@ features:
 
   - icon: 🔩
     title: Universal Plugins
-    details: FIGMA 官方插件库即可下载
+    details: FIGMA 官方插件库安心下载
 
   - icon: 🪧
     title: Iterate Continuously
