@@ -20,7 +20,7 @@ export default {
         ['meta', { property: 'og:description', content: ogDescription }],
         ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
         ['meta', { name: 'twitter:site', content: '@vite_js' }],
-        ['meta', { name: 'theme-color', content: '#646cff' }]
+        ['meta', { name: 'theme-color', content: '#1e8e3e' }]
     ],
     locales: {
         '/': {
