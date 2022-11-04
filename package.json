@@ -1,7 +1,7 @@
 {
-  "name": "wps_figma_sync_docs",
+  "name": "sheet_sync_docs",
   "version": "1.0.0",
-  "description": "A Figma Content Filling plugin Power By WPS Sheet.",
+  "description": "A Content Filling Design Plugin Power By Awesome Online Sheet Api",
   "main": "index.js",
   "engines": {
     "node": "^14.18.0 || >=16.0.0"
@@ -18,6 +18,7 @@
     "figma",
     "plugin",
     "wps",
+    "google",
     "sheets",
     "sync"
   ],
