@@ -1,15 +1,15 @@
 import { defineConfig } from 'vitepress'
 import { navbar, navbar_cn } from './navbar'
 import { sidebar } from './sidebar'
-const ogDescription = 'A Figma Content Filling plugin Power By WPS Sheet.'
-const ogImage = 'https://WpsFigmaSync.forkway.cn/og-image.png'
-const ogTitle = 'WpsFigmaSync'
-const ogUrl = 'https://WpsFigmaSync.forkway.cn'
+const ogDescription = 'A Content Filling Design Plugin Power By Awesome Online Sheet Api'
+const ogImage = 'https://sheet-sync.netlify.app/og-image.png'
+const ogTitle = 'Sheet-Sync-Docs'
+const ogUrl = 'https://sheet-sync.netlify.app/'
 
 //not use defineConfig, some config will not work
 
 export default {
-    title: 'WpsFigmaSync',
+    title: 'Sheet-Sync-Docs',
     description: `${ogDescription}`,
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
@@ -40,14 +40,14 @@ export default {
             copyright: 'Copyright © 2022-present Forkway'
         },
         logo: '/logo.svg',
-        siteTitle: 'WpsFigmaSync',
+        siteTitle: 'Sheet-Sync-Docs',
 
         nav: navbar,
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/Leizhenpeng/WpsFigmaSyncDocs' }
+            { icon: 'github', link: 'https://github.com/Leizhenpeng/SheetSyncDocs' }
         ],
         editLink: {
-            pattern: 'https://github.com/Leizhenpeng/WpsFigmaSyncDocs/edit/main/docs/:path',
+            pattern: 'https://github.com/Leizhenpeng/SheetSyncDocs/edit/main/docs/:path',
             text: 'Edit this page on GitHub'
         },
         localeLinks: {

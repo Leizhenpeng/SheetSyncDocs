@@ -3,16 +3,16 @@
 
 layout: home
 
-title: WpsFigmaSync
+title: SheetSyncPlugin
 titleTemplate: A Figma Content Filling plugin Power By WPS Sheet.
 
 hero:
-  name: WpsFigmaSync
+  name: SheetSyncPlugin
   text: Never Waste Your Time Except Design
-  tagline: 一款由 WPS 驱动的 FIGMA 内容填充插件.
+  tagline: 一款由在线表格驱动的内容填充插件.
   image:
     src: /home.png
-    alt: WpsFigmaSync
+    alt: SheetSyncPlugin
   actions:
     - theme: brand
       text: 开启体验
@@ -23,7 +23,7 @@ hero:
 
 features:
   - icon: ⛑
-    title: Figma & Wps
+    title: Google & Vika & 飞书 & WPS
     link: https://www.kdocs.cn/welcome
     details: 最为稳定的在线文档服务商WPS加速你的设计稿开发
 
