@@ -39,7 +39,7 @@ export default {
             message: `Released under the GPL License.`,
             copyright: 'Copyright © 2022-present Forkway'
         },
-        logo: '/logo.svg',
+        logo: '/logo.png',
         siteTitle: 'SheetSyncDocs',
 
         nav: navbar,
