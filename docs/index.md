@@ -28,13 +28,12 @@ hero:
 
 features:
   - icon: ⛑
-    title: Figma & Wps
-    link: https://www.kdocs.cn/welcome
-    details:  Most stable online sheet service accelerate the development of your design draft.
+    title: Google Sheet & Vika & Feishu & Wps
+    details:  Choose stable online sheet service accelerate the development of your design draft.
 
   - icon: 🇨🇳
     title: Lightning Fast Experience
-    details: No need to go over the wall, enjoy the ultimate experience.
+    details: Support for multiple domestic online table data sources, enjoy the ultimate experience
     
   - icon: 📦
     title: Rich Features
@@ -46,7 +45,7 @@ features:
 
   - icon: 🔩
     title: Universal Plugins
-    details: Download directly in figma official plug-in market.
+    details: Download directly in official plug-in market.
 
   - icon: 🪧
     title: Iterate Continuously
