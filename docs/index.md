@@ -3,11 +3,11 @@
 
 layout: home
 
-title: SheetSyncDocs
+title: SheetSyncPlugin
 titleTemplate: A Figma Content Filling plugin Power By WPS Sheet.
 
 hero:
-  name: Sheet-Sync-Plugin
+  name: SheetSyncPlugin
   text: Never Waste Your Time Except Design
   tagline: A Content Filling Design Plugin Power By Awesome Online Sheet Api
   image:

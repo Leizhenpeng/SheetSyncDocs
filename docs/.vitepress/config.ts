@@ -9,7 +9,7 @@ const ogUrl = 'https://sheet-sync.netlify.app/'
 //not use defineConfig, some config will not work
 
 export default {
-    title: 'Sheet-Sync-Docs',
+    title: 'Sheet-Sync-Plugin',
     description: `${ogDescription}`,
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
@@ -40,7 +40,7 @@ export default {
             copyright: 'Copyright © 2022-present Forkway'
         },
         logo: '/logo.svg',
-        siteTitle: 'Sheet-Sync-Docs',
+        siteTitle: 'SheetSyncDocs',
 
         nav: navbar,
         socialLinks: [
