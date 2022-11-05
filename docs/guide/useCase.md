@@ -42,6 +42,11 @@
 <img  alt="随机头像" src="/use_case/avatar.png" title="app启动页" width="1600" height="900"/>
 </a>
 
+## 首页卡片栏
+<a href="https://mastergo.com/file/76752237695164?page_id=84:51932&layer_id=128:0387&source=link_share" target="_blank">
+<img  alt="首页卡片栏" src="/use_case/content-card.png" title="app启动页" width="1600" height="900"/>
+</a>
+
 [//]: # ()
 [//]: # (## 随机文本填充)
 

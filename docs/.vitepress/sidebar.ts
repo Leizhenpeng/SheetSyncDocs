@@ -10,7 +10,7 @@ export const sidebar: DefaultTheme.Sidebar = {
             items: [
                 { text: '诞生说明', link: '/guide/whyIt.md' },
                 { text: '使用场景', link: '/guide/useCase' },
-                { text: '快速上手', link: '/guide/usage' }],
+                { text: '快速上手', link: '/guide/start' }],
         },
     ],
     '/en/guide/': [{
