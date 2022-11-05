@@ -19,7 +19,7 @@ https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="680" height="450" src="https://mastergo.com/file/76752237695164?page_id=15:4439&source=iframe_share" allowfullscreen></iframe>
 
-在新的标签页打开上面的设计稿模板，点击左上角文件标题 ，选择**创建文件副本** ，将 [内容同步の黑魔法](https://mastergo.com/community/) 复制到你的草稿箱中。
+在新的标签页打开设计稿模板，点击左上角的文件标题 ，选择**创建文件副本** ，将 [内容同步の黑魔法](https://mastergo.com/community/) 复制到你的草稿箱中。
 
 ## 步骤三：启动插件，导入数据
 
@@ -27,7 +27,7 @@ https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上
 
 启动插件，点击右上角图标 **导入数据** 。
 
-**复制** 下面谷歌共享表格的链接，粘贴至输入框，点击 **完成** 。
+**复制** 下面共享表格链接，粘贴至输入框，点击 **完成** 。
 
 ``` 
 https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg2Qg/edit#gid=0
@@ -47,6 +47,6 @@ https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg
 <img  alt="首页卡片栏" src="/use_case/content-card.png" title="app启动页" width="1600" height="900"/>
 </a>
 
-以上就完成了一个简单且实用的内容填充小例子。因为想让你快速体验到插件带来的爽感，我有意隐藏掉图层重命名和表格列名修改等比较繁琐步骤。
+以上就完成了一个简单且实用的内容填充小例子。因为想让你快速体验到插件带来的爽感，我有意隐藏掉 **图层重命名** 和 **表格结构调**整 等繁琐步骤。
 
-实际开发中，你可以根据自己的需求，自由的调整表格内容和图层名称，以实现更多好玩的功能。
+实际开发中，你可以根据自己的需求，自由调整表格内容和图层名称，以实现更多好玩的功能。
