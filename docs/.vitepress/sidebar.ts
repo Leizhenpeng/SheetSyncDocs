@@ -4,10 +4,10 @@ const sec1 = {
     text: '简单来说',
     collapsible: true,
     items: [
-        { text: '诞生日记', link: '/guide/whyIt.md' },
-        { text: '使用场景', link: '/guide/useCase' },
-        { text: '快速上手', link: '/guide/start' },
-        { text: '我们的不同', link: '/guide/enhance' },
+        { text: '诞生日记', link: '/guide/tutorial/whyIt.md' },
+        { text: '使用场景', link: '/guide/tutorial/useCase' },
+        { text: '快速上手', link: '/guide/tutorial/start' },
+        { text: '我们的不同', link: '/guide/tutorial/enhance' },
     ],
 };
 
