@@ -3,54 +3,48 @@
 
 layout: home
 
-title: WpsFigmaSync
+title: SheetSyncPlugin
 titleTemplate: A Figma Content Filling plugin Power By WPS Sheet.
 
 hero:
-  name: WpsFigmaSync
+  name: SheetSyncPlugin
   text: Never Waste Your Time Except Design
-  tagline: A Figma Content Filling plugin Power By WPS Sheet.
+  tagline: 一款由在线表格驱动的内容填充插件.
   image:
     src: /home.png
-    alt: WpsFigmaSync
-  actions:
+    alt: SheetSyncPlugin
+    actions:
+
     - theme: brand
-      text: Get Started
-      link: /guide/
-
-
-
-    # - theme: alt
-    #   text: Feedback
-    #   link : https://support.qq.com/products/431975/
-
-
+      text: 开启体验
+      link: /guide/whyIt
 
 features:
+
   - icon: ⛑
-    title: Figma & Wps
-    link: https://www.kdocs.cn/welcome
-    details:  Most stable online sheet service accelerate the development of your design draft.
+    title: 谷歌表格 | 维格表 | 飞书 | 金山文档
+    details: 在线表格遇上在线设计,再次赋予创作全新力量
 
-  - icon: 🇨🇳
-    title: Lightning Fast Experience
-    details: No need to go over the wall, enjoy the ultimate experience.
-    
-  - icon: 📦
-    title: Rich Features
-    details: Supports multiple formats for content filling.
-
-  - icon: 👋
-    title: Easy-to-use Tutorial
-    details: Provide easy-to-search documents and minimum hands-on project to practice.
 
   - icon: 🔩
-    title: Universal Plugins
-    details: Download directly in figma official plug-in market.
+    title: 拥抱tailwind语法
+    details: 采用tailwindcss原子类语法,提供丰富的样式配置,让你的设计更加丰富多彩
+
+  - icon: 📦
+    title: 多类型支持
+    details: 提供针对文本,字体,图片,颜色,透明度等多种格式内容填充
+
+  - icon: 🇨🇳
+    title: 告别翻墙
+    details: 提供多款国内表格接口,享受极速同步体验
+
+
+  - icon: 👋
+    title: 快速入门
+    details: 简约清晰的文档+入门讲解的视频+最小可行的在线设计稿模板
 
   - icon: 🪧
-    title: Iterate Continuously
-    details: Continue to receive user feedback and periodically iterate product.
-
+    title: 热爱用户
+    details: 追踪用户反馈, 产品持续迭代
 
 ---
