@@ -19,7 +19,7 @@ https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="680" height="450" src="https://mastergo.com/file/76752237695164?page_id=15:4439&source=iframe_share" allowfullscreen></iframe>
 
-在新的标签页打开上面的设计稿模板，点击 **创建副本** ，将 [内容同步の黑魔法](https://mastergo.com/community/) 复制到你的草稿箱中。
+在新的标签页打开上面的设计稿模板，点击左上角文件标题 ，选择**创建文件副本** ，将 [内容同步の黑魔法](https://mastergo.com/community/) 复制到你的草稿箱中。
 
 ## 步骤三：启动插件，导入数据
 

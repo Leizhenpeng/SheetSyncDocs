@@ -13,11 +13,10 @@ hero:
   image:
     src: /home.png
     alt: SheetSyncPlugin
-    actions:
-
-    - theme: brand
-      text: 开启体验
-      link: /guide/whyIt
+  actions:
+      - theme: brand
+        text: 快速体验
+        link: /guide/start
 
 features:
 
@@ -27,8 +26,8 @@ features:
 
 
   - icon: 🔩
-    title: 拥抱tailwind语法
-    details: 采用tailwindcss原子类语法,提供丰富的样式配置,让你的设计更加丰富多彩
+    title: 拥抱windicss语法
+    details: 采用windicss原子类样式缩写语法,提供丰富的样式配置,让你的设计更加丰富多彩
 
   - icon: 📦
     title: 多类型支持
