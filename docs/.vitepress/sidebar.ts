@@ -15,7 +15,7 @@ const sec2 :DefaultTheme.SidebarGroup= {
     text:'复杂来讲',
     collapsible: true,
     items:[
-        {text:'表格内容',link:'/guide/table'},
+        {text:'规范表单结构',link:'/guide/advance/table'},
     ]
 }
 
