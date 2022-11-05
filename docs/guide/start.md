@@ -29,11 +29,11 @@ https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上
 
 **复制** 下面谷歌共享表格的链接，粘贴至输入框，点击 **完成** 。
 
-``` html
+``` txt
 https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg2Qg/edit#gid=0
 ```
 
-## 步骤三：同步数据，更新选取
+## 步骤三：同步数据，更新选区
 
 <img  alt="同步数据" src="/step/step4.png" title="app启动页" width="1600" height="900"/>
 
@@ -47,4 +47,6 @@ https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg
 <img  alt="首页卡片栏" src="/use_case/content-card.png" title="app启动页" width="1600" height="900"/>
 </a>
 
-以上就完成了一个简单的内容填充小例子。实际开发中，你可以根据自己的需求，自由的调整表格内容和图层名称，以实现更多功能。
+以上就完成了一个简单且实用的内容填充小例子。因为想让你快速体验到插件带来的爽感，我有意隐藏掉图层重命名和表格列名修改等比较繁琐步骤。
+
+实际开发中，你可以根据自己的需求，自由的调整表格内容和图层名称，以实现更多好玩的功能。
