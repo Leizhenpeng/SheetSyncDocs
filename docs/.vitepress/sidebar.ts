@@ -16,6 +16,7 @@ const sec2 :DefaultTheme.SidebarGroup= {
     collapsible: true,
     items:[
         {text:'规范表单结构',link:'/guide/advance/table'},
+        {text:'单元格类型',link:'/guide/advance/fieldParse'},
     ]
 }
 
