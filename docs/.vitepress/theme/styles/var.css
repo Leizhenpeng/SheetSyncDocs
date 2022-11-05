@@ -81,7 +81,7 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand) !important;
+  --docsearch-primary-color: var(--vp-c-brand-light) !important;
 }
 
 /**

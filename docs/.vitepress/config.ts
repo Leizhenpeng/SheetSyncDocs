@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-import { navbar, navbar_cn } from './navbar'
+import { navbar_en, navbar } from './navbar_en'
 import { sidebar } from './sidebar'
 const ogDescription = 'A Content Filling Design Plugin Power By Awesome Online Sheet Api'
 const ogImage = 'https://sheet-sync.netlify.app/og-image.png'
@@ -24,13 +24,13 @@ export default {
     ],
     locales: {
         '/': {
-            lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
-            title: 'WpsFigmaSync',
+            lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+            title: 'SheetSyncPlugin',
             description: ' A Figma Content Filling plugin Power By WPS Sheet.'
         },
-        '/zh/': {
-            lang: 'zh-CN',
-            title: 'WpsFigmaSync',
+        '/en/': {
+            lang: 'en-US',
+            title: 'SheetSyncPlugin',
             description: '一款由 WPS 驱动的 FIGMA 内容填充插件'
         }
     },
@@ -51,9 +51,9 @@ export default {
             text: 'Edit this page on GitHub'
         },
         localeLinks: {
-            text: 'English',
+            text: '简体中文',
             items: [
-                { text: '简体中文', link: '/zh/' },
+                { text: 'English', link: '/en/' },
             ]
         },
         sidebar: sidebar,
@@ -69,12 +69,12 @@ export default {
             }
         },
         locales: {
-            '/zh/': {
-                nav: navbar_cn,
+            '/en/': {
+                nav: navbar_en,
                 localeLinks: {
-                    text: '简体中文',
+                    text: 'English',
                     items: [
-                        { text: 'English', link: '/' }
+                        { text: '简体中文', link: '/' }
                     ]
                 }
                 ,
@@ -91,7 +91,7 @@ export default {
                 },
             }
         }
-        
+
     },
     appearance: true
 }

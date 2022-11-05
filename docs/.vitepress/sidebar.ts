@@ -1,21 +1,23 @@
-import { DefaultTheme } from "vitepress";
+import {DefaultTheme} from 'vitepress';
 
 export const sidebar: DefaultTheme.Sidebar = {
 
     '/guide/': [
         {
-            text: 'Guide',
+
+
+            text: '简单说',
             items: [
-                { text: 'Getting Started', link: '/guide/' },
-                { text: 'Introduction', link: '/guide/introduce' },
-                { text: 'Usage', link: '/guide/usage' },]
-        }
+                { text: '诞生说明', link: '/guide/whyIt.md' },
+                { text: '使用场景', link: '/guide/' },
+                { text: '快速上手', link: '/guide/usage' }],
+        },
     ],
-    '/zh/guide/': [{
+    '/en/guide/': [{
         text: 'Guide',
         items: [
-            { text: '开始', link: '/zh/guide/' },
-            { text: '介绍', link: '/zh/guide/introduce' },
-            { text: '用法', link: '/zh/guide/usage' },]
-    }]
-}
+            { text: 'Getting Started', link: '/en/guide/' },
+            { text: 'Introduction', link: '/en/guide/introduce' },
+            { text: 'Usage', link: '/en/guide/usage' }],
+    }],
+};
