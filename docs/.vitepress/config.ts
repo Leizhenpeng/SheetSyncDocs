@@ -43,6 +43,7 @@ export default {
         },
         lastUpdatedText: '上次更新',
         outlineTitle: '目录',
+        outline: [2,4],
         docFooter: {
             prev: '上一篇',
             next: '下一篇',
