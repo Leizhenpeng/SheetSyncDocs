@@ -1,5 +1,4 @@
-import { defineConfig } from 'vitepress'
-import { navbar_en, navbar } from './navbar_en'
+import {navbar, navbar_en} from './navbar';
 import { sidebar } from './sidebar'
 const ogDescription = 'A Content Filling Design Plugin Power By Awesome Online Sheet Api'
 const ogImage = 'https://sheet-sync.netlify.app/og-image.png'
@@ -8,7 +7,7 @@ const ogUrl = 'https://sheet-sync.netlify.app/'
 
 //not use defineConfig, some config will not work
 
-export default {
+export default  {
     title: 'Sheet-Sync-Plugin',
     description: `${ogDescription}`,
     head: [
@@ -38,6 +37,12 @@ export default {
         footer: {
             message: `Released under the GPL License.`,
             copyright: 'Copyright © 2022-present Forkway'
+        },
+        // lastUpdatedText: 'Updated Date',
+        outlineTitle: '目录',
+        docFooter: {
+            prev: '上一篇',
+            next: '下一篇'
         },
         logo: '/logo.png',
         siteTitle: 'SheetSyncDocs',
