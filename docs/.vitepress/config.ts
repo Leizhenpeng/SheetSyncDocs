@@ -9,6 +9,7 @@ const ogUrl = 'https://sheet-sync.netlify.app/';
 export default {
     title: 'Sheet-Sync-Plugin',
     description: `${ ogDescription }`,
+    lastUpdated: true,
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.png' }],
         ['meta', { property: 'og:type', content: 'website' }],
@@ -40,7 +41,7 @@ export default {
             message: `Released under the GPL License.`,
             copyright: 'Copyright © 2022-present Forkway',
         },
-        // lastUpdatedText: 'Updated Date',
+        lastUpdatedText: '上次更新',
         outlineTitle: '目录',
         docFooter: {
             prev: '上一篇',
