@@ -78,8 +78,8 @@ export default {
         algolia: {
             appId: 'CN4JQQMG9O',
             apiKey: 'e2b81d64b59e6b5bc9bcfcb9487d2793',
-            indexName: 'figma-sheet-sync',
-            placeholder: 'Search',
+            indexName: 'sheet-sync-plugin',
+            placeholder: '文档嘛，当然要嗖的一下才行~',
             translations: {
                 button: {
                     buttonText: 'Quick Search',
