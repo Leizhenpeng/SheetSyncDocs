@@ -29,7 +29,7 @@ https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上
 
 **复制** 下面谷歌共享表格的链接，粘贴至输入框，点击 **完成** 。
 
-``` txt
+``` 
 https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg2Qg/edit#gid=0
 ```
 
