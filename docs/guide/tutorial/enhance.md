@@ -4,38 +4,37 @@
 
 哈哈哈哈，这是因为我并非简单照搬 `Google Sheet Sync` 的功能，而是在原有插件基础上，进行了大量的优化和改进。
 
-[//]: # (//todo)
 下面我将简要对不同之处做出介绍，更多的细节，可以在 [详细文档 ](/guide/advance/fieldParse) 中找到。
 
-## 👋🏻 see bye to `/`
+## 👋🏻 say bye to `/`
 
 非文本类字段不再强制要求以特殊符 `/`开头。
 
-## 👋🏻 see bye to `xx` `yy` `º` `%`
+## 👋🏻 say bye to `xx` `yy` `º` `%`
 抛弃各种奇奇怪怪的操作类型约定，依据[WindiCss](https://windicss.org/utilities/general/typography.html)原子类样式前缀缩写规则识别图层类别
 
 例如：`text-12px` 代表设置字号为12px, `rotate-12` 代表旋转12度，`op-50` 代表图层透明度50% 
 
-## 👋🏻 see bye to `HIDE MY LAYER`
+## 👋🏻 say bye to `HIDE MY LAYER`
 
 彻底根治原插件动不动就隐藏图层的坏毛病, 同时允许单独对文本层做文本内容填充外的其他操作，不再假死
 
 
-## 📦 see hello to `*`
+## 📦 say hello to `*`
 
 原插件仅允许组件实例单独占据一行表格数据，现在只要图层名中出现 `*` 标识，自身及其子元素都会被同一行数据填充。
 
-## 📦 see hello to `rgba`
+## 📦 say hello to `rgba`
 
 原插件仅支持不携带透明度的 `hex` 颜色 ，现以支持多种格式的颜色，
 
 例如：`rgba(255,255,255,0.5)` , `hsl(0,0%,100%,0.5)` , `#ffffff80`
 
-## 📦 see hello to `font-name`
+## 📦 say hello to `font-name`
 
 制定排版规范不再畏手畏脚，字体字号字距行距等变量，都可以通过表格填充到文本图层上。
 
 
-## 📦 see hello to `HISTORY`
+## 📦 say hello to `HISTORY`
 
 推崇多表格操作，自动保存操作历史，方便切换数据源。
