@@ -15,13 +15,14 @@ const sec2 :DefaultTheme.SidebarGroup= {
     text:'复杂来讲',
     collapsible: true,
     items:[
-        {text:'规范表单结构',link:'/guide/advance/table'},
+        {text:'表单结构',link:'/guide/advance/table'},
         {text:'单元格类型',link:'/guide/advance/fieldParse'},
+        {text:'图层名称',link:'/guide/advance/nodeName'},
     ]
 }
 
 const sec3 :DefaultTheme.SidebarGroup= {
-    text:'顺便提一下',
+    text:'顺便提提',
     items:[
         {text:'致谢',link:'/guide/other/thanks'},
     ]

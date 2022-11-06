@@ -16,7 +16,7 @@ hero:
   actions:
       - theme: brand
         text: 快速体验
-        link: /guide/start
+        link: /guide/tutorial/start
 
 features:
 
