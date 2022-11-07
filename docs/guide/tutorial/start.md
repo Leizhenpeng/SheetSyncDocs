@@ -1,6 +1,6 @@
 # 快速上手
 下面通过 `mastergo`（简称MG）中的 **[谷歌内容同步插件](
-https://mastergo.com/community/plugin/75420694326045)** 为例，带你极速上手体验。
+https://mastergo.com/community/plugin/75420694326045)** 为例，让你极速上手体验。
 
 ::: tip
 本款插件选用[谷歌表格](https://sheets.google.com/)为数据提供方，需要具备一定的科学上网基础。
@@ -9,7 +9,7 @@ https://mastergo.com/community/plugin/75420694326045)** 为例，带你极速上
 :::
 
 ## 步骤一：安装插件 
-进入[谷歌内容同步插件]( https://mastergo.com/commuity/plugin/75420694326045 )详情页面，点击 **在线安装** 。
+进入[谷歌内容同步插件]( https://mastergo.com/commuity/plugin/75420694326045 )的详情页面，点击 **在线安装** 。
 
 
 
@@ -21,15 +21,15 @@ https://mastergo.com/community/plugin/75420694326045)** 为例，带你极速上
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="680" height="450" src="https://mastergo.com/file/76752237695164?page_id=15:4439&source=iframe_share" allowfullscreen></iframe>
 
-在新的标签页打开设计稿模板，点击左上角的文件标题 ，选择**创建文件副本** ，将 [内容同步の黑魔法](https://mastergo.com/community/) 复制到你的草稿箱中。
+浏览器新标签页打开设计稿模板，点击左上角文件标题后下拉箭头 ，选择**创建文件副本** ，将 [内容同步の黑魔法](https://mastergo.com/community/) 复制到你的草稿箱中。
 
-## 步骤三：启动插件，导入数据
+## 步骤三：启动插件，新增表格
 
 <img  alt="导入数据" src="/step/step3.png" title="app启动页" width="1600" height="900"/>
 
-启动插件，点击右上角图标 **导入数据** 。
+启动插件，点击右上角图标 **新增表格** 。
 
-**复制** 下面共享表格链接，粘贴至输入框，点击 **完成** 。
+**复制** 下面表格链接，粘贴至输入框，点击 **完成** 。
 
 ``` 
 https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg2Qg/edit#gid=0
@@ -39,9 +39,9 @@ https://docs.google.com/spreadsheets/d/1M0Wx11UIdmds2q_blDdcFezxtIQpZainYULpU6Rg
 
 <img  alt="同步数据" src="/step/step4.png" title="app启动页" width="1600" height="900"/>
 
-在插件中选中 **内容同步の黑魔法** 表单，点击左下角的 **同步表格内容** 。
+在插件面板中选中 **内容同步の黑魔法** 表单，点击左下角的 **同步表格内容** 按钮。
 
-返回设计稿，切换到 `快速上手` 页面，选中名称为 `练习区` 的容器，点击 **插入数据** 。
+返回设计稿，切换到 `快速上手` 页面，选中名称为 `练习区` 的容器图层后，在点击 **插入数据** 按钮 。
 
 ## 步骤四：预览效果
 
