@@ -87,7 +87,7 @@
 **[ 文本垂直对齐 ](#文本垂直对齐)** | text\_vertical\_align | align\-top \| align\-middle \| align\-bottom               
 **[ 段落间距 ](#段落间距)**   | paragraph\_spacing | space\-                                                    
 **[ 组件 ](#组件)**     | component | 不允许隐式推断，必须显示声明                                                      
-**[ 组件变体 ](#组件变体)**     | component_variant | 不允许隐式推断，必须显示声明 |
+**[ 组件变体 ](#组件变体)**     | variant | 不允许隐式推断，必须显示声明 |
 
 ### 文本
 
@@ -521,8 +521,8 @@ space-12px
 以下`表头内容`均为有效显示声明，标识此列单元格为组件变体类型
 
 ```md
-[component_variant] 卡片种类
-[Component_variant] 卡片种类
+[variant] 卡片种类
+[variant] 卡片种类
 ```
 
 ::: warning
