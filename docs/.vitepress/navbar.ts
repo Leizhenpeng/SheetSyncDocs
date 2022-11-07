@@ -9,6 +9,7 @@ const advance = [
     { text: '表单结构', link: '/guide/advance/table'},
     { text: '单元格类型', link: '/guide/advance/fieldParse'},
     {text:'图层名称',link:'/guide/advance/nodeName'},
+    {text:'取值规则',link:'/guide/advance/obtainValue'},
 ];
 
 
