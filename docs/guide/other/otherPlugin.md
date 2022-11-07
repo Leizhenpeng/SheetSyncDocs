@@ -26,13 +26,19 @@
 </a>
 </p>
 
-## 重复N次
+## [重复N次](https://mastergo.com/community/plugin/77033379437636)
 
-输入一个数字n，就可以快速的复制出n个实例，方便和表格中的行数对齐。
+输入一个数字n，就可以快速的复制出n个实例，方便实例数和表格行数对齐。
 
-::: info
-还在快速开发阶段 ~
-:::
+
+<p align="center">
+<a href="https://mastergo.com/community/plugin/77033379437636" target="_blank">
+<img  alt="重复N次" src="/ui/重复N次.png" title="重复N次" width="400"/>
+</a>
+</p>
+
+
+
 
 ## 复制属性
 
