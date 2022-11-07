@@ -1,6 +1,6 @@
 # 快速上手
 下面通过 `mastergo`（简称MG）中的 **[谷歌内容同步插件](
-https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上手体验。
+https://mastergo.com/community/plugin/75420694326045)** 为例，带你极速上手体验。
 
 ::: tip
 本款插件选用[谷歌表格](https://sheets.google.com/)为数据提供方，需要具备一定的科学上网基础。
@@ -9,7 +9,9 @@ https://mastergo.com/community/plugin/75023383778703)** 为例，带你极速上
 :::
 
 ## 步骤一：安装插件 
-进入[谷歌内容同步插件]( https://mastergo.com/commuity/plugin/75023383778703 )详情页面，点击 **在线安装** 。
+进入[谷歌内容同步插件]( https://mastergo.com/commuity/plugin/75420694326045 )详情页面，点击 **在线安装** 。
+
+
 
 [//]: # (//todo)
 
