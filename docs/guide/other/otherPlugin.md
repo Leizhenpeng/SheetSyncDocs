@@ -42,6 +42,34 @@
 还在快速开发阶段 ~
 :::
 
+## [图层批量重命名](https://mastergo.com/help/layer/rename)
+
+插件自带的重命名功能可以帮你`精准匹配列名`，但是无法满足批量加上`取值角标`的需求。
+
+好在官方提供了`图层批量重命名`，可以帮你快速的完成这个需求。
+
+<p align="center">
+<a href="https://mastergo.com/help/layer/rename" target="_blank">
+<img  alt="图层重命名" src="/ui/图层重命名.png" title="图层重命名" width="400"/>
+</a>
+</p>
+
+::: tip
+快捷键是`Command + R`
+:::
+
+## [复鼓](https://mastergo.com/community/plugin/74498502453610)
+
+快速将选区内容转成图片，并获取图片的链接，方便直接粘贴到表格中。
 
 
+<p align="center">
+<a href="https://mastergo.com/community/plugin/74498502453610" target="_blank">
+<img  alt="复鼓" src="/ui/复鼓.png" title="复鼓" width="400"/>
+</a>
+</p>
+
+::: tip
+复鼓其实是复制+打鼓，关爱一下设计师几乎摆难的音乐细胞~
+:::
 
