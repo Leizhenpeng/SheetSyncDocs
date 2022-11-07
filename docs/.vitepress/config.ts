@@ -25,12 +25,12 @@ export default {
         '/': {
             lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
             title: 'SheetSyncPlugin',
-            description: ' A Figma Content Filling plugin Power By WPS Sheet.',
+            description: '一款由在线表格驱动的内容填充插件'
         },
         '/en/': {
             lang: 'en-US',
             title: 'SheetSyncPlugin',
-            description: '一款由 WPS 驱动的 FIGMA 内容填充插件',
+            description: `${ ogDescription }`,
         },
     },
     themeConfig: {
@@ -89,7 +89,7 @@ export default {
         },
         locales: {
             '/en/': {
-                nav: navbar_en,
+                nav: navbar,
                 localeLinks: {
                     text: 'English',
                     items: [
