@@ -9,7 +9,7 @@ https://mastergo.com/community/plugin/75420694326045)** 为例，让你极速上
 :::
 
 ## 步骤一：安装插件 
-进入[谷歌内容同步插件]( https://mastergo.com/commuity/plugin/75420694326045 )的详情页面，点击 **在线安装** 。
+进入[谷歌内容同步插件]( https://mastergo.com/community/plugin/75420694326045 )的详情页面，点击 **在线安装** 。
 
 
 
